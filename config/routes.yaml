@@ -1,0 +1,26 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+app_home:
+    path: /home
+    controller: App\Controller\HomeController::index
+route_sidebar_left:
+    path: /sidebarLeft
+    controller: App\Controller\HomeController::sidebarLeft
+route_sidebar_right:
+    path: /sidebarright
+    controller: App\Controller\HomeController::sidebarright
+contact:
+    path: /contact
+    controller: App\Controller\HomeController::contact
+signin:
+    path: /signin
+    controller: App\Controller\HomeController::signin
+signup:
+    path: /signup
+    controller: App\Controller\HomeController::signup
+About:
+    path: /about
+    controller: App\Controller\HomeController::about
